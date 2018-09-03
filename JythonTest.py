@@ -12,7 +12,7 @@ class JythonTest(LeikrEngine):
         
     #
         
-    def render(self):
+    def render(self, delta=None):
                 
         if(self.rightKeyPressed()):
             self.x = self.x + 5
