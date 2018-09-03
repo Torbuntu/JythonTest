@@ -8,7 +8,6 @@ class JythonTest(LeikrEngine):
     #
     
     def create(self):
-        super(JythonTest, self).create()
         print("hey")
         
     #
