@@ -14,13 +14,13 @@ class JythonTest(LeikrEngine):
         
     def render(self, delta=None):
                 
-        if(self.rightKeyPressed()):
+        if(self.key("right")):
             self.x = self.x + 5
             
             
-        if(self.leftKeyPressed()):
+        if(self.key("left")):
             self.x = self.x - 5
             
             
-        self.drawSprite(8, self.x, 20)
+        self.sprite(8, self.x, 20)
     #
